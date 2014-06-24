@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <link rel="stylesheet" href="p01SimpleForm.css"/>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Enter the system</h1>
+        <p>It is necessary to login to your account in order to sign in for a course.</p>
+    </header>
+
+    <form action="" id = "registerForm">
+        <div class="bold">ARE YOU NEW? <a href="#">REGISTER</a></div>
+        <input type="text" placeholder="User name"/>
+        <input type="email" placeholder="Email"/>
+        <input type="password" placeholder="Pasword"/>
+        <input type="password" placeholder="Confirm password"/>
+        <input type="button" value="Register"/>
+    </form>
+
+    <form action="" id = "loginForm">
+        <div class="bold">ALREADY A STUDENT? <span>LOGIN</span></div>
+        <input type="text" placeholder="User name"/>
+        <input type="password" placeholder="Password"/>
+        <input type="checkbox" id="checkBox"/>
+        <label for="checkBox">Remember me?</label>
+        <input type="submit" value ="Login"/>
+        <p><a href="#">Forgot Password</a></p>
+    </form>
+
+
+</div>
+</body>
+</html>
