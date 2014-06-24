@@ -1,0 +1,110 @@
+body {
+font-family: 'PT Sans', Tahoma, sans-serif;
+background-color: #eee;
+font-size: 14px;
+}		
+		
+		
+		header{
+		background:#234465;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 20;
+		padding-top:20px;
+		margin: 0 !important;
+		height: 110px;
+		
+		}
+		
+#logoPic {
+margin-right:60px;
+}
+
+
+img#searchImg {
+position: relative;
+left: -29px;
+top: -4px;
+padding: 5px 5px 6px 5px;
+border: 1px solid #D5D5D5;
+border-radius: 0px 5px 5px 0px;
+}
+
+img#searchImg:hover {
+background: #367cae;
+}
+
+#gapTable{
+margin-left:100px
+
+}
+		
+		
+		ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+
+		li {
+		display: inline;
+		}
+		
+		a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 18px;
+}
+
+
+.gap {
+display: inline;
+line-height: 10px;
+
+}
+
+.gap a {
+padding: 10px;
+line-height: 36px;
+border-radius: 5px;
+}
+
+
+.gapUser a {
+padding: 5px;
+line-height: 36px;
+border-radius: 5px;
+}
+
+.gap a:hover {
+    background: #4ca0db;
+	text-decoration:none;
+	color:#fff;
+}
+
+.gapUser a:hover {
+    background: #4ca0db;
+	text-decoration:none;
+	color:#fff;
+}
+
+
+.gap  a:focus {
+background: #FF9C00;
+}
+
+.gapUser  a:focus {
+background: #FF9C00;
+}
+
+input[type="search"] {
+margin-top: 2px;
+}
+
+span {
+color:#fff;
+font-weight:bold;
+margin-right:5px;
+}
