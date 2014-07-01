@@ -1,0 +1,202 @@
+body{
+
+
+
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+    padding:5px;
+    background: #3d8019;
+}
+
+#topLeft {
+    border-top-left-radius: 10px;
+}
+
+#topRight {
+    border-top-right-radius: 10px;
+}
+
+#bottomLeft {
+    border-bottom-left-radius: 10px;
+}
+
+#bottomRight {
+    border-bottom-right-radius: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+td, th {
+    border:1px solid black;
+}
+
+#header {
+    background: #F8C711;
+    border-radius: 10px;
+}
+
+tr:nth-child(even){
+    background:white;
+}
+
+tr:nth-child(odd){
+    background:#C8C8C8;
+}
+
+p {
+    text-align: center;
+    padding:0px 10px;
+
+}
+
+.alignRight{
+     text-align: right;
+    padding:0px 30px;
+ }
+
+.alignLeft{
+    text-align: left;
+    padding:0px 30px;
+}
+
+.alignRight2 {
+    text-align: right;
+    padding: 0px 5px 0px 90px;
+}
+
+.alignLeft2{
+    text-align: left;
+    padding: 0px 10px 0px 5px;
+}
+
+
+select{
+    color:#008000;
+    height:40px;
+    width:40px;
+    margin:5px;
+}
+
+
+select.disabled{
+   background:#DCDCDC;
+   color:#E1282B;
+}
+
+.round-buttonRed {
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border: 1px groove #E0E0E0;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #E1282B;
+    box-shadow: 0 0 3px gray;
+    font-size:10px;
+    font-weight:bold;
+    margin:10px;
+}
+.round-buttonRed:hover {
+    /*background: #262626;*/
+}
+
+.round-button {
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border: 1px groove #E0E0E0;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #008000;
+    box-shadow: 0 0 3px gray;
+    font-size:10px;
+    font-weight:bold;
+    margin:10px;
+}
+.round-button:hover {
+    background: #262626;
+}
+
+/*flags*/
+#brazilFlag  {
+    position: absolute;
+    top: 76px;
+    left: 109px;
+    width: 21px;
+}
+
+#spainFlag{
+position: absolute;
+top: 131px;
+left: 109px;
+width: 21px;
+}
+
+#italyFlag {
+    position: absolute;
+    top: 188px;
+    left: 109px;
+    width: 21px;
+}
+
+#argentinaFlag {
+    position: absolute;
+    top: 244px;
+    left: 109px;
+    width: 21px;
+}
+
+#germanyFlag {
+    position: absolute;
+    top: 301px;
+    left: 109px;
+    width: 21px;
+}
+
+#mexicoFlag {
+      position: absolute;
+      top: 76px;
+      left: 206px;
+      width: 21px;
+  }
+
+#netherlandsFlag {
+    position: absolute;
+    top: 131px;
+    left: 206px;
+    width: 21px;
+}
+
+#englandFlag {
+    position: absolute;
+    top: 188px;
+    left: 206px;
+    width: 21px;
+}
+
+
+
+#portogalFlag {
+    position: absolute;
+    top: 301px;
+    left: 206px;
+    width: 21px;
+}
+
+#bosnalFlag {
+    position: absolute;
+    top: 244px;
+    left: 206px;
+    width: 21px;
+}
